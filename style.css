@@ -1,0 +1,29 @@
+@charset "UTF-8";
+ :root {
+    --font01 font-family: 'Telefraf Regular', Arial sans-serif;
+    --cor01 
+ }
+
+
+@font-face {
+    font-family: 'Telegraf Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Telegraf Regular'), url('fontes/TelegrafRegular_272984568a25d8528fe2de8b20b29011.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Telegraf UltraLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Telegraf UltraLight'), url('fontes/Telegraf\ UltraLight\ 200.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Telegraf UltraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Telegraf UltraBold'), url('fontes/Telegraf\ UltraBold\ 800.otf') format('otf');
+    }

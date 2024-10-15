@@ -2,8 +2,8 @@
  :root {
     --font01:'Telegraf Regular', Arial, Verdana, Helvetica,  sans-serif;
     --font02:'Telegraf UltraLight';
-    --font03:'Garet-Book Bold' Arial,;
-    --font04:'Garet-Book Light' Arial, ;
+    --font03:'Garet-Book Bold';
+    --font04:'Garet-Book Light';
     --cor01: white; 
     --cor02: black;
     --cor-destaque: #f878cd;
@@ -49,23 +49,73 @@
         src: url('fontes/Garet-Heavy.otf') format('opentype');
      }
 
+     @font-face {
+        font-family: 'Garet-Book Light';
+        font-style: normal;
+        font-weight: normal;
+        src: url('fontes/Garet-Book.woff') format('woff');
+     }
+
+     @font-face {
+        font-family:'Garet-Book Bold';
+        font-style: normal;
+        font-weight: normal;
+        src: url('fontes/Garet-Heavy.woff') format('woff');
+     }
+
+
+     @font-face {
+        font-family:'Garet-Book Light';
+        font-style: normal;
+        font-weight: normal;
+        src: url('fontes/Garet-Book.ttf') format('truetype');
+     }
+
+     @font-face {
+        font-family:'Garet-Book Bold';
+        font-style: normal;
+        font-weight: normal;
+        src: url('fontes/Garet-Heavy.otf') format('truetype');
+     }
+
+     
+     
+
+     
+
+     
+
     * {
         margin: 0px;
         padding: 0px;
     }
-    h1 {
+    html, body {
+        min-height: 220px;
+        background-color: darkgray;
+    }
+    
+    h1, h2 , h3 , h4 {
         font-family: var(--font01);
         
     }
+    p, a {
+        font-family: var(--font04);
+    }
     header {
+        background-image: url(imagens/elemento2.png);
+        background-position: center center;
+        background-size: 80vh;
+        background-repeat: no-repeat;
         min-height: 300px;
         background-color: white;
-        background-image: url(imagens/elemento.png);
+        padding-bottom: 70px;
+        
     }
-    header > h1 {
+    header > section >  h1 {
         text-align: center;
         padding-top: 80px;
         padding-bottom: 45px;
+        font-size: 5em;
     }
     header > nav > a {
         text-align: center;
@@ -76,7 +126,118 @@
 
     }
     nav {
+        
+        padding-top: 10px;
+        width: 150px;
+        height: 30px;
+        margin: auto;
         background-color: var(--cor02);
+       
+    }
+    nav > a:hover{
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.5s;
+    }
+    article.sobre { 
+        display: flex;
+        flex-direction: row;
+        justify-content:center ;
+        align-items: center;
+        column-gap: 20px;
+        padding-top: 50px;
+        min-width: 300px;
+        background-color: var(--cor02);
+        display: flex-box;
+        
+        padding-bottom: 50px;
+    }
+    div.conteudo01 {
+        vertical-align: right;
+        width: 300px;
+        height: 450px;
+        background-color: var(--cor02);
+        color: var(--font01)
+       
+    }
+    div.conteudo01 > p {
+        padding-bottom: 12px;
+        font-size: 0.57em;
+        color: var(--cor01);
+        padding-left: 30px;
         
     }
-  
+    div.conteudo01 > h1 {
+        font-size: 2em;
+        color: var(--cor01);
+        padding-top: 80px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+       
+
+    }
+    div.img01 {
+        background-image: url(imagens/istockphoto-1348209421-612x612.jpg);
+        background-position:  top right;
+        background-size: cover;
+        vertical-align: right;
+        width: 300px;
+        height: 300px;
+        padding-left: 100x;
+        background-color: gray;
+        border-radius: 0px 280px 0px 0px;
+       
+    }
+    section.inove {
+        display: flex;
+        flex-direction: row;
+        justify-content:center ;
+        align-items: center;
+        column-gap: 20px;
+        background-color: var(--cor01);
+        padding-top: 150px;
+        padding-bottom: 150px ;
+        
+    }
+    section.inove > h2, h3 {
+        padding-top: 30px;
+        padding-left: 30px;
+
+        
+    }
+    
+    div.facilidade {
+        
+        background-color: var(--cor-destaque);
+        width: 400px;
+        height: 450px;
+    }
+    div.facilidade > h2 {
+        font-size: 2.7em;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    
+    div.facilidade  p {
+        padding-top: 15px;
+        padding-left: 30px;
+    }
+    div.crescimento {
+        background-color: var(--cor-destaque);
+        width: 400px;
+        height: 450px;
+    }
+    div.crescimento > h2 {
+        font-size: 2.7em;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    div.crescimento p {
+        padding-top: 15px;
+        padding-left: 30px;
+    }
+   
+   
+
+    
+    

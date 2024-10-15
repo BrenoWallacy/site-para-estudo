@@ -195,8 +195,8 @@
         align-items: center;
         column-gap: 20px;
         background-color: var(--cor01);
-        padding-top: 150px;
-        padding-bottom: 150px ;
+        padding-top: 30px;
+        padding-bottom: 30px ;
         
     }
     section.inove > h2, h3 {
@@ -236,8 +236,94 @@
         padding-top: 15px;
         padding-left: 30px;
     }
-   
-   
+    .fundadores {
+        background-color: var(--cor-destaque02);
+        color: var(--cor01);
+        padding-bottom: 80px;
+    }
+    .fundadores h1 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        font-size: 3em;
+    }
+    .container01 {
+        gap: 20px;
+        border: 0px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        
+
+    }
+    .pessoas01, .pessoas02 , .pessoas03 {
+        width: 250px;
+        height: 250px;
+        background-color: var(--cor-destaque);
+        border-radius: 50%;
+    }
+    .pessoas01 {
+        background-image: url(imagens/homem-bonito-posando-e-sorrindo_23-2149396133.avif);
+        background-position: center top;
+        background-size: cover;
+    }
+    .pessoas02 {
+        background-image: url(imagens/designer-trabalhando-no-modelo-3d_23-2149371896.avif);
+        background-size: cover;
+        background-position: center top;
+
+    }
+    .pessoas03 {
+        background-image: url(imagens/images.jpg);
+        background-size: cover;
+        background-position: center left;
+
+    }
+    .nomes {
+        
+        padding-top: 20px;
+        text-align: center;
+        gap: 20px;
+        border: 0px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        
+     
+    }
+    .nomes p {
+        padding-left: 48px;
+        padding-right: 50px;
+    }
+    .part03 {
+        background-color: var(--cor02);
+        min-height: 400px;
+    }
+    .container02 {
+        padding-top: 20px;
+        text-align: center;
+        gap: 20px;
+        border: 0px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+    }
+    .info01, .info02, .info03, .info04, .info05 {
+        color: var(--cor01);
+        background-color: gray;
+    }
+    .info01 {
+        
+    }
+    .info02 {
+        background-image: url(imagens/celular.png);
+        background-position: center center;
+        background-size: cover;
+    }
+
 
     
     

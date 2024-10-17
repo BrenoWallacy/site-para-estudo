@@ -101,6 +101,15 @@
     p, a {
         font-family: var(--font04);
     }
+    main {
+        min-width: 280px;
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);
+        border-radius: 00px 0px 10px 10px ;
+    }
     header {
         background-image: url(imagens/elemento2.png);
         background-position: center center;
